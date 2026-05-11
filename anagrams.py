@@ -1,5 +1,5 @@
-a = input('Введите первое слово')
-b = input("Введите второе слово")
+a = input('Введите первое слово').strip().lower()
+b = input("Введите второе слово").strip().lower()
 a = list(a)
 b = list(b)
 a.sort()
